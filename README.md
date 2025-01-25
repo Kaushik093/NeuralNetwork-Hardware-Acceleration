@@ -1,4 +1,4 @@
-# Neural-Network-Acceleration-CIFAR10
+# Neural-Network-Hardware-Acceleration
 
 ## Project Overview
 This project focuses on developing and accelerating a convolutional neural network (CNN) for the CIFAR-10 dataset. The aim is to achieve high accuracy during training and improve throughput while performing inference on an FPGA.
