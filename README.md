@@ -15,7 +15,7 @@ This project focuses on developing and accelerating a convolutional neural netwo
   - Implement techniques such as data augmentation, batch normalization, dropout, and learning rate scheduling to enhance model performance.
   - Train the model on the CIFAR-10 dataset and validate its performance on the test set.
 
-### Step 3: Accelerating Inference with FPGA
+### Step 2: Accelerating Inference with FPGA
 - **Objective**: Use the FPGA fabric of the KRIA KV260 board to accelerate the inference of the trained CNN, maximizing throughput without significant accuracy loss.
 - **Approach**:
   - Optimize the trained CNN for hardware implementation, considering quantization and pruning techniques.
