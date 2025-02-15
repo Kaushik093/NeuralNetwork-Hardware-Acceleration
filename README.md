@@ -14,7 +14,7 @@ This project focuses on developing and accelerating a convolutional neural netwo
   - Build a CNN model using common deep learning frameworks.
   - Implement techniques such as data augmentation, batch normalization, dropout, and learning rate scheduling to enhance model performance.
   - Train the model on the CIFAR-10 dataset and validate its performance on the test set.
-  - Code file: CNN_model.ipynb ; Model file: base_model.h5
+  - Code file: CNN.ipynb ; Model file: base_model.h5
 
 ### Step 2: Accelerating Inference with FPGA
 - **Objective**: Use the FPGA fabric of the KRIA KV260 board to accelerate the inference of the trained CNN, maximizing throughput without significant accuracy loss.
@@ -22,7 +22,7 @@ This project focuses on developing and accelerating a convolutional neural netwo
   - Optimize the trained CNN for hardware implementation, considering quantization and pruning techniques (Refer to vitis-ai-quantization.py to see how the model is quantized).
   - Export the quantized model from .h5 to .xmodel.
   - Deploy the optimized model on the FPGA using **VITIS-AI** or an equivalent platform.
-  - Evaluate the performance in terms of inference throughput (inferences per second) and accuracy.
+  - Evaluate the performance in terms of inference throughput (inferences per second) and accuracy (Refer to KRIA_Inference.py).
   - Iterate between hardware and algorithm co-optimization to balance accuracy and throughput.
 
 
